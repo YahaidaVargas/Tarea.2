@@ -1,0 +1,6 @@
+c:\users\yahaida vargas\documents\visual studio 2015\Projects\Tarea.2\Tarea.2\bin\Tarea.2.dll.config
+c:\users\yahaida vargas\documents\visual studio 2015\Projects\Tarea.2\Tarea.2\bin\Tarea.2.dll
+c:\users\yahaida vargas\documents\visual studio 2015\Projects\Tarea.2\Tarea.2\bin\Tarea.2.pdb
+c:\users\yahaida vargas\documents\visual studio 2015\Projects\Tarea.2\Tarea.2\obj\Debug\Tarea.2.csprojResolveAssemblyReference.cache
+c:\users\yahaida vargas\documents\visual studio 2015\Projects\Tarea.2\Tarea.2\obj\Debug\Tarea.2.dll
+c:\users\yahaida vargas\documents\visual studio 2015\Projects\Tarea.2\Tarea.2\obj\Debug\Tarea.2.pdb

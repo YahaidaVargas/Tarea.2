@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="scripts/jquery-3.1.0.min.js">
+    </script>
+</head>
+<body>
+    <input type="text" placeholder="escripe tu nombre..." id="nombre"/>
+    <button id="btnSaludo">saludo</button>
+    <div id="letrero"></div>
+    
+    
+    
+    
+    <script> 
+       
+        jQuery(document).ready(function () {
+
+            jQuery("#letrero").hide();
+            jQuery("#btnSaludo").click(function () {
+                jQuery("#letrero").html("hola, " + jQuery("#nombre").val());
+                jQuery("#letrero").fadeIn("slow");
+
+
+            });
+
+        });
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="scripts/knockout-3.4.0.js"></script>
+
+</head>
+<body>
+    <input data-bind="value: nombre" placeholder="nombre"/>
+    <input data-bind="value: apellido" placeholder="apellido" />
+    <h2>Hola, <span data-bind="text: saludo"></span>!!</h2>
+
+     <script> 
+         var ViewModel = function (nom, ape) {
+             this.nombre = ko.observable(nom);
+             this.apellido = ko.observable(ape);
+
+             this.saludo = ko.pureComputed(function () {
+
+                 return this.nombre() + " " + this.apellido();
+
+
+             }, this);
+         };
+
+         ko.applyBindings(new ViewModel("Yahaida", "Vargas"));
+
+
+     </script> 
+
+</body>
+</html>
