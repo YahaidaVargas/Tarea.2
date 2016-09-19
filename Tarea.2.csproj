@@ -61,6 +61,7 @@
     <Content Include="cookieejemplo.aspx" />
     <Content Include="ejemploJquery.html" />
     <Content Include="ejemploKnowoutjs.html" />
+    <Content Include="paginahija.aspx" />
     <Content Include="qstringinicio.aspx" />
     <Content Include="qstringrecibe.aspx" />
     <Content Include="resultadoSes.aspx" />
@@ -76,6 +77,20 @@
     </Compile>
     <Compile Include="cookieejemplo.aspx.designer.cs">
       <DependentUpon>cookieejemplo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="masterpage.Master.cs">
+      <DependentUpon>masterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="masterpage.Master.designer.cs">
+      <DependentUpon>masterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="paginahija.aspx.cs">
+      <DependentUpon>paginahija.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginahija.aspx.designer.cs">
+      <DependentUpon>paginahija.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="qstringinicio.aspx.cs">
@@ -108,6 +123,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="masterpage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
